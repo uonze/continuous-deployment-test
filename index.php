@@ -1,3 +1,6 @@
 <?php
 
-echo "Hello World"; 
+require_once("Application.php");
+
+$app = new Application();
+echo $app->getTemplate();
